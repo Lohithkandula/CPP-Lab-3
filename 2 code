@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+void swap(int a, int b)
+{
+int temp;
+temp = a;
+a = b;
+b = temp;
+cout<<"Value of a after swapping"<<a<<endl<<"\n";
+cout<<"Value of b after swapping"<<b<<endl;
+return;
+}
+int main()
+{
+int a = 100, b = 200;
+cout<<"Value of a before swapping"<<a<<endl<<"\n";
+cout<<"Value of b before swapping"<<b<<endl<<"\n";
+swap(a, b);
+}
